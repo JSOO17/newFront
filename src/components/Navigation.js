@@ -7,7 +7,7 @@ const Navigation = (props) => (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<ul className="navbar-nav mr-auto">
 				<li className="nav-item active">
-					<Link className="nav-link" to="/" >History</Link>
+					<Link className="nav-link" to="/history" >History</Link>
 				</li>
 			</ul>
 				<form onSubmit={props.onSubmit} className="form-inline my-2 my-lg-0">
