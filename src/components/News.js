@@ -30,13 +30,12 @@ return <div className="row my-3 mx-2">
           <div className="card-body">
             <small>{newss.publishedAt}</small>
             <h4>{newss.author}</h4>
-            <img src={newss.urlToImage} />
+            <img src={newss.urlToImage} style={{width: '100%'}} />
             <h5 className="card-title">{newss.description}</h5>
             <p className="card-text">{newss.content}</p>
             <a href={newss.url} className="btn btn-primary">View More</a>
           </div>
         </div>)
-      		
       })}
      	</div>
     </div>   
